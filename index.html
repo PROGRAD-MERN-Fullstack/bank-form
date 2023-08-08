@@ -8,7 +8,118 @@
 </head>
 <body>
     <form>
+        <h2> Bank Application Form</h2>
+        <label for="User-firstname">First Name:</label>
+        <input type="text"
+        placeholder="Enter your name here"
+        id="User-firstname"
+        name="User-firstname"
+        required/>
+        <br><br>
+        <label for="User-lastname">Last Name:</label>
+        <input type="text"
+        placeholder="Enter your name here"
+        id="User-Lastname"
+        name="User-Lastname"
+        required/>
+        <br><br>
+        <label for="User-dob">Date of Birth:</label>
+        <input type="text"
+        placeholder="Enter your DOB here"
+        pattern="(?:\d{1,2}[-/\s]\d{1,2}[-/\s]'?\d{2,4})|(?:\d{2,4}[-/\s]\d{1,2}[-/\s]\d{1,2})|(?:(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)[\s-/,]*?\d{1,2}(?:\s)*(?:rd|th|st)?(?:\s)*[-/,]?(?:\s)*'?\d{2,4})|(?:\d{1,2}(?:\s)*(?:rd|th|st)?(?:\s)*(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)(?:\s)*?[-/,]?(?:\s)*'?\d{2,4})"
+        id="User-dob"
+        name="User-dob"
+        required/>
+        <br><br>
+        <label for="User-number">MobileNumber:</label>
+        <input type="text"
+        placeholder="Enter your MobileNumber here"
+        pattern="[6789][0-9]{9}"
+        id="User-number"
+        name="User-number"
+        required/>
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+        <label for="User-Aadhar-Number ">AadharNumber:</label>
+        <input type="text"
+        placeholder="Enter your AadharNumber here"
+        pattern="^[2-9]{1}[0-9]{3}\\s[0-9]{4}\\s[0-9]{4}$"
+        id="User-Aadhar-Number"
+        name="User-Aadhar-Number"
+        required/>
+        <br><br>
+        <label for="User-Address">Address:</label>
+        <input type="text"
+        placeholder="Enter your Address here"
+        id="User-Address"
+        name="User-Address"
+        required/>
+        <br><br>
+        <label for="User-City">City:</label>
+        <input type="text"
+        placeholder="Enter your City here"
+        id="User-City"
+        name="User-City"
+        required/>
+        <br><br>
+        <label for="User-State">State:</label>
+        <input type="text"
+        placeholder="Enter your State here"
+        id="User-State"
+        name="User-State"
+        required/>
+        <br><br>
+        <label for="User-fathername">Father Name:</label>
+        <input type="text"
+        placeholder="Enter your father name here"
+        id="User-fathername"
+        name="User-fathername"
+        required/>
+        <br><br>
+        <label for="User-mothername">Mother Name:</label>
+        <input type="text"
+        placeholder="Enter your name here"
+        id="User-mothername"
+        name="User-mothername"
+        required/>
+        <br><br>
+        <label for="User-Religion">Religion:</label>
+        <select name="User-Religion" id="User-Religion">
+        <option value="Hindu">Hindu</option>
+        <option value="Muslim">Muslim</option>
+        <option value="Christian">Christian</option>
+        <option value="Others">Audi</option>
+        </select>
+        <br><br>
+        <label for="User-Educational-Qualification">Educational Qualification:</label>
+        <select name="User-Educational-Qualification" id="User-Educational-Qualification">
+        <option value="Non-Graduate">Non-Graduate</option>
+        <option value="Under-Graduate">Under-Graduate</option>
+        <option value="Post-Graduate">Post-Graduate</option>
+        <option value="Others">Others</option>
+        </select>
+        <br><br>
+        <label for="User-Occupation">Occupation:</label>
+        <input type="text"
+        id="User-Occupation"
+        name="User-Occupation"
+        required/>
+        <br><br>
+        <label for="User-salary">Salary:</label>
+        <input type="text"
+        placeholder="Enter your Salary here"
+        pattern="[0-9][1-9.]*[0-9]+[1-9]*"
+        id="User-salary"
+        name="User-salary"
+        required/>
+        <br><br>
+        <button>SUBMIT</button>
         
+
     </form>
     
 </body>
